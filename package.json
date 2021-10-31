@@ -1,0 +1,32 @@
+{
+  "name": "mandarr-recipe",
+  "version": "1.0.0",
+  "description": "Recipe for everyone",
+  "main": "init.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypercubist/mandarr-recipe.git"
+  },
+  "author": "hypercubist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hypercubist/mandarr-recipe/issues"
+  },
+  "homepage": "https://github.com/hypercubist/mandarr-recipe#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.14",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.0"
+  }
+}

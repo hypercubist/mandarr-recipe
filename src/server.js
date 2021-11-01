@@ -8,6 +8,8 @@ const handleHome = (req, res) => {
   res.send("Home...!");
 };
 
+app.set("view engine", "pug");
+
 app.get("/", handleHome);
 
 export default app;
